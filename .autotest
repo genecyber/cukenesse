@@ -1,0 +1,10 @@
+require 'autotest/growl'
+
+# cat .autotest
+Autotest.add_hook :initialize do |at|
+    at.add_exception 'tmp'
+    at.add_exception 'rerun.txt'
+    at.add_exception 'vendor'
+    at.add_exception '.git'
+    at.add_exception 'Gemfile.lock'
+end

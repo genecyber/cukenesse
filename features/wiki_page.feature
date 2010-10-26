@@ -28,13 +28,3 @@ Feature: Wiki page
       Scenario: A page with no cucumber features returns an empty list when it tries to retrieve features
         When I select the "index" page
         Then the list for cucumber features should be empty
-      
-      Scenario: A page with 1 cucumber feature returns its feature
-        When I select the "one_feature" page
-        Then I should get a feature called "successful_featured"
-        And that feature's path should be "~/fixtures/wikis/features/successful_featured.feature"
-        And that feature's content should be
-          """
-          Scenario: This feature should pass
-            Then I should test the truth!
-          """

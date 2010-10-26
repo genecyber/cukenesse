@@ -4,5 +4,5 @@ class Feature
     @page = page
     @path = page.wiki.path + "features/#{file_name}"
   end
-  
+
 end

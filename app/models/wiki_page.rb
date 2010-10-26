@@ -1,4 +1,6 @@
 class WikiPage
+  @@feature_html_expression = /<a href="features\/.*">.*<\/a>/
+  
   attr_reader :wiki, :name, :path
   
   def initialize(wiki, page = "index")
@@ -15,13 +17,8 @@ class WikiPage
     BlueCloth.new(contents).to_html
   end
   
-  def features
-    feature_html_expression = /<a href="features\/.*">.*<\/a>/
-    
-    parsed_features_html = feature_html_expression.match html
-    
-    return [] unless parsed_features_html 
-    return [Feature.new(self, parsed_features_html[1])]
+  def list_features
+    []
   end
   
 end

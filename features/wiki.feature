@@ -6,7 +6,6 @@ Feature: Wiki
   Background:
     Given I instantiate a new wiki on the "~/fixtures/wikis/basic/" folder
 
-  
     Scenario: Can create a new wiki given a path    
       Then the new wiki's path should be "~/fixtures/wikis/basic/"
 

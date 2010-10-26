@@ -11,5 +11,5 @@ Then /^the html for that page should be:$/ do |html|
 end
 
 Then /^the list for cucumber features should be empty$/ do
-  @current_page.features.should == []
+  @current_page.list_features.should == []
 end

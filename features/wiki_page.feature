@@ -3,6 +3,7 @@ Feature: Wiki page
   As a tester
   I want to be able to edit my wiki pages
   
+  
   Background:
     Given I instantiate a new wiki on the "~/fixtures/wikis/basic/" folder
 

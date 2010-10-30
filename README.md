@@ -10,8 +10,6 @@ First part: Read-only
   2. See for all the markdown files it contains and create a wiki from those (it does not store on the DB so we can use version control).
   3. If one of those markdown pages contains a reference to a cucumber file, run the test and parse the result as html.
   
-  (I'm currently on step 3)
-
 Second part: Modify features on the wiki
 ----------------------------------------
 
@@ -36,7 +34,7 @@ Installation instructions:
     
   - Clone this repository:
   
-    `git clone git@github.com:frnz/cukenesse.git`
+    `git clone http://github.com/frnz/cukenesse.git`
   
   - Cd to the application's folder (if it ask you to trust the rvmrc file, type yes), then:
   

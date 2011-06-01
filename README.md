@@ -25,9 +25,9 @@ Installation instructions:
      - OSX: By far the easiest way to install both Git and git-completion is via Homebrew, so you should pick that one.
      - Ubuntu: https://help.ubuntu.com/community/Git
 
-  - Install RVM: http://rvm.beginrescueend.com/rvm/install/
+ - Install RVM: http://rvm.beginrescueend.com/rvm/install/
   
-  - Type: 
+ - Type: 
     
     `rvm install ruby`
     
@@ -35,16 +35,16 @@ Installation instructions:
     
     `rvm gemset create 'cukenesse'`
     
-  - Clone this repository:
+ - Clone this repository:
   
     `git clone http://github.com/frnz/cukenesse.git`
   
-  - Cd to the application's folder (if it ask you to trust the rvmrc file, type yes), then:
+ - Cd to the application's folder (if it ask you to trust the rvmrc file, type yes), then:
   
     `gem install bundler`
     
     `bundle install`
   
-  - That should install everything, to run the tests, type:
+ - That should install everything, to run the tests, type:
   
     `rake cucumber`

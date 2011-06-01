@@ -33,8 +33,6 @@ Installation instructions:
 
                `if [[ -s "$HOME/.rvm/scripts/rvm" ]]  ; then source "$HOME/.rvm/scripts/rvm" ; fi`
 
-              - Ctrl+X to save the file
-
   
  - Type: 
     

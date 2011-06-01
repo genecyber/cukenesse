@@ -29,7 +29,7 @@ Installation instructions:
     - Ubuntu: 
               `curl -s https://rvm.beginrescueend.com/install/rvm -o rvm-installer ; chmod +x rvm-installer ; ./rvm-installer --version latest`
 
-              `pico ./.bashrc`
+`pico ./.bashrc`
 
               - type this at the end of the file 
 

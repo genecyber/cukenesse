@@ -31,7 +31,9 @@ Installation instructions:
 
               `pico ./.bashrc`
 
-              type this at the end of the file `if [[ -s "$HOME/.rvm/scripts/rvm" ]]  ; then source "$HOME/.rvm/scripts/rvm" ; fi`
+              - type this at the end of the file 
+
+`if [[ -s "$HOME/.rvm/scripts/rvm" ]]  ; then source "$HOME/.rvm/scripts/rvm" ; fi`
 
               - Ctrl+X to save the file
 

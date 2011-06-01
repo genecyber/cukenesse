@@ -37,7 +37,7 @@ Installation instructions:
     
  - Clone this repository:
   
-    `git clone http://github.com/frnz/cukenesse.git`
+    `git clone http://github.com/genecyber/cukenesse.git`
   
  - Cd to the application's folder (if it ask you to trust the rvmrc file, type yes), then:
   

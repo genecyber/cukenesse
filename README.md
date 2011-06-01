@@ -28,10 +28,8 @@ Installation instructions:
  - Install RVM: http://rvm.beginrescueend.com/rvm/install/
     - Ubuntu: 
               `curl -s https://rvm.beginrescueend.com/install/rvm -o rvm-installer ; chmod +x rvm-installer ; ./rvm-installer --version latest`
-
-               `pico ./.bashrc`
-
-                `if [[ -s "$HOME/.rvm/scripts/rvm" ]]  ; then source "$HOME/.rvm/scripts/rvm" ; fi`
+`pico ./.bashrc`
+`if [[ -s "$HOME/.rvm/scripts/rvm" ]]  ; then source "$HOME/.rvm/scripts/rvm" ; fi`
 
   
  - Type: 

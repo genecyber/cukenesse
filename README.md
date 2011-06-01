@@ -27,20 +27,20 @@ Installation instructions:
 
  - Install RVM: http://rvm.beginrescueend.com/rvm/install/
     - Ubuntu: 
-              `curl -s https://rvm.beginrescueend.com/install/rvm -o rvm-installer ; chmod +x rvm-installer ; ./rvm-installer --version latest
+              `curl -s https://rvm.beginrescueend.com/install/rvm -o rvm-installer ; chmod +x rvm-installer ; ./rvm-installer --version latest`
 
-              `pico ./.bashrc
+              `pico ./.bashrc`
 
-              type this at the end of the file `if [[ -s "$HOME/.rvm/scripts/rvm" ]]  ; then source "$HOME/.rvm/scripts/rvm" ; fi
+              type this at the end of the file `if [[ -s "$HOME/.rvm/scripts/rvm" ]]  ; then source "$HOME/.rvm/scripts/rvm" ; fi`
 
               - Ctrl+X to save the file
 
   
  - Type: 
     
-    `rvm install ruby`
+    `rvm install 1.9.2`
     
-    `rvm use ruby`
+    `rvm --default ruby-1.9.2`
     
     `rvm gemset create 'cukenesse'`
     

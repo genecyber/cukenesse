@@ -22,7 +22,7 @@ Second part: Modify features on the wiki
 Installation instructions:
 ==========================
  - Git
-     - OSX: By far the easiest way to install both Git and git-completion is via Homebrew, so you should pick that one.
+     - OSX: By far the easiest way to install both Git and git-completion is via [[http://mxcl.github.com/homebrew/|HomeBrew]], so you should pick that one.
      - Ubuntu: https://help.ubuntu.com/community/Git
 
  - Install RVM: http://rvm.beginrescueend.com/rvm/install/
